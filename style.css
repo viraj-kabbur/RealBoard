@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'MyFont1';
-    src: url('TT Bluescreens Trial Bold.ttf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('Fonts/TT\ Bluescreens\ Trial\ Bold.ttf') format('truetype'); /* Adjust the path and format as needed */
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'MyFont2';
-    src: url('TT Backwards Script Trial Bold.otf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('Fonts/TT\ Backwards\ Script\ Trial\ Bold.otf') format('truetype'); /* Adjust the path and format as needed */
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyFont3';
-    src: url('DynaPuff-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('Fonts/DynaPuff-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
     font-weight: normal;
     font-style: normal;
 }
@@ -350,7 +350,7 @@ body {
     transition: transform 0.2s, opacity 0.2s;
 }
 
-@media (max-width:768px) {
+@media (min-device-width:768px) and (max-device-width: 1024px) {
     body {
         background-color: #F5EDED;
         overflow-x: hidden;
@@ -359,36 +359,11 @@ body {
     .text1 {
         width: 40%;
         text-align: left;
-        font-size: 30px;
-        right: 3%;
-        top: -8%;
+        font-size: 43px;
+        right: 6%;
+        top: -7%;
     }
 
-    .banner {
-        position: absolute;
-        height: 190px;
-        width: 100vw;
-        background-color: #7FA1C3;
-        top: 0%;
-    }
-    .container {
-        width: 146vw;
-        height: 72vh;
-        position: relative;
-        z-index: 1;
-        background-color: #6482AD;
-        /* margin-top: 20px; */
-        /* margin-left: 15px; */
-    }
-    .circle-container {
-        height: 177px;
-        width: 145vw;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        bottom: -28%;
-    }
     .text2 {
         width: 65vw;
         position: absolute;
@@ -396,12 +371,10 @@ body {
         left: 5%;
         font-family: "Inter", sans-serif;
         font-weight: 600;
-        /* padding-left: 25px; */
-        font-size: 24px;
+        font-size: 33px;
         margin-top: 1px;
         color: #543310;
     }
-
 
     .text3 {
         position: absolute;
@@ -411,178 +384,239 @@ body {
         width: 65vw;
         font-family: "Inter", sans-serif;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 24px;
         color: #543310;
     }
-
-    .box12 {
-        width: 100px;
-        height: 50px;
-        font-family: 'MyFont2';
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 50px;
-        position: relative;
-        bottom: 199%;
-        left: 40%;
-        position: relative;
+    
+    .banner {
+        position: absolute;
+        height: 272px;
+        width: 100vw;
+        background-color: #7FA1C3;
+        top: 0%;
     }
-    .box8 {
-        width: 400px;
-        height: 50px;
-        font-family: "MyFont1";
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 85px;
+    .container {
+        width: 145vw;
+        height: 72vh;
         position: relative;
-        left: 5%;
-        bottom: 68%;
-    }
-    .box4 {
-        width: 100px;
-        height: 50px;
-        font-family: "MyFont3";
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 52px;
-        font-weight: 700;
-        position: relative;
-        left: 5%;
-        bottom: -24%;
-    }
-    .box5 {
-        width: 100px;
-        height: 50px;
-        font-family: 'MyFont2';
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 40px;
-        position: relative;
-        left: 27%;
-        bottom: -18%;
-    }
-    .box11 {
-        width: 200px;
-        height: 50px;
-        font-family: 'MyFont3';
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 34px;
-        position: relative;
-        bottom: 135%;
-        left: 33%;
-    }
-    .box12 {
-        width: 100px;
-        height: 50px;
-        font-family: 'MyFont2';
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 40px;
-        position: relative;
-        bottom: 192%;
-        left: 41%;
-        position: relative;
+        z-index: 1;
+        background-color: #6482AD;
+        /* margin-top: 20px; */
+        /* margin-left: 15px; */
     }
 
-    .box14 {
-        width: 100px;
-        height: 50px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-weight: 500;
+    .circle-container {
+        height: 258px;
+        width: 145vw;
+        position: absolute;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 31px;
-        position: relative;
-        bottom: 153%;
-        left: 59%;
+        bottom: -28%;
     }
-    .box6 {
-        width: 100px;
-        height: 50px;
-        font-family: 'MyFont3';
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 48px;
-        position: relative;
-        left: 64%;
-        bottom: 12%;
-    }
-    .box7 {
-        width: 100px;
-        height: 50px;
-        font-family: "Atkinson Hyperlegible", sans-serif;
-        font-weight: 400;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 40px;
-        position: relative;
-        left: 79%;
-        bottom: 3%;
-    }
-    .box10 {
-        width: 100px;
-        height: 50px;
-        font-family: 'MyFont2';
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 50px;
-        position: relative;
-        bottom: 134%;
-        left: 83%;
-    }
+   
+  
 
-    .box13 {
+    .box1 {
+        position: relative;
         width: 100px;
         height: 50px;
         font-family: 'MyFont1';
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 56px;
-        position: relative;
-        bottom: 182%;
-        left: 57%;
-    } 
-    .box9 {
+        font-size: 73px;
+        margin-left: 67px;
+        top: 4%;
+    }
+    
+    .box2 {
         width: 100px;
-        height: 228px;
-        font-family: 'MyFont3';
-        font-style: normal;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 19px;
-        font-weight: 600;
-        position: relative;
-        bottom: 115%;
-        left: 46%;
-    }
-
-
-    .box3 {
-        width: 500px;
         height: 50px;
-        font-family: "Atkinson Hyperlegible", sans-serif;
-        font-weight: 700;
+        font-family: 'MyFont2';
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 70px;
+        font-size: 35px;
         position: relative;
-        left: 55%;
-        bottom: 23%;
+        left: 25%;
+        bottom: 6%;
     }
+        .box3 {
+            width: 500px;
+            height: 50px;
+            font-family: "Atkinson Hyperlegible", sans-serif;
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 73px;
+            position: relative;
+            left: 64%;
+            bottom: 13%;
+        }
+    
+    
+        .box4 {
+            width: 100px;
+            height: 50px;
+            font-family: "MyFont3";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 62px;
+            font-weight: 700;
+            position: relative;
+            left: 11%;
+            bottom: -38%;
+        }
+    
+    
+        .box5 {
+            width: 100px;
+            height: 50px;
+            font-family: 'MyFont2';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 45px;
+            position: relative;
+            left: 30%;
+            bottom: -47%;
+        }
+    
+    
+        .box6 {
+            width: 100px;
+            height: 50px;
+            font-family: 'MyFont3';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            position: relative;
+            left: 64%;
+            bottom: -3%;
+        }
+    
+    
+        .box7 {
+            width: 100px;
+            height: 50px;
+            font-family: "Atkinson Hyperlegible", sans-serif;
+            font-weight: 400;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 53px;
+            position: relative;
+            left: 77%;
+            bottom: -35%;
+        }
+    
+    
+    
+        .box8 {
+            width: 400px;
+            height: 50px;
+            font-family: "MyFont1";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 98px;
+            position: relative;
+            left: 5%;
+            bottom: 32%;
+        }
+    
+    
+    
+        .box9 {
+            width: 100px;
+            height: 228px;
+            font-family: 'MyFont3';
+            font-style: normal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 47px;
+            font-weight: 600;
+            position: relative;
+            bottom: 67%;
+            left: 52%;
+        }
+    
+    
+        .box10 {
+            width: 100px;
+            height: 50px;
+            font-family: 'MyFont2';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 68px;
+            position: relative;
+            bottom: 53%;
+            left: 83%;
+        }
+    
+    
+        .box11 {
+            width: 200px;
+            height: 50px;
+            font-family: 'MyFont3';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 64px;
+            position: relative;
+            bottom: 70%;
+            left: 36%;
+        }
+    
+        .box12 {
+            width: 100px;
+            height: 50px;
+            font-family: 'MyFont2';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            position: relative;
+            bottom: 130%;
+            left: 46%;
+            position: relative;
+        }
+
+        .box13 {
+            width: 100px;
+            height: 50px;
+            font-family: 'MyFont1';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 56px;
+            position: relative;
+            bottom: 111%;
+            left: 82%;
+        }
+    
+    
+        .box14 {
+            width: 100px;
+            height: 50px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 500;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 49px;
+            position: relative;
+            bottom: 69%;
+            left: 57%;
+        }
+    
+
     .button {
         position: relative;
         margin-top: 11%;
