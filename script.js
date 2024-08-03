@@ -110,7 +110,7 @@ gsap.from(".button-container", {
 function initAnimationsSmall() {
 
     var tl_1 = gsap.timeline()
-
+    
     tl_1.from(".container .box1", {
         opacity:0,
         delay:1,
@@ -175,12 +175,12 @@ function initAnimationsSmall() {
         opacity:0,
         duration:0.60
     })
-    
+        
     tl_1.to(".container", {
-        scale:0.3,
+        scale:0.4,
         duration:1,
-        x:-470,
-        y:-150,
+        x:-250,
+        y:-115,
         scrub:2
     })
     
