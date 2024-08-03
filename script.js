@@ -179,8 +179,8 @@ function initAnimationsSmall() {
     tl_1.to(".container", {
         scale:0.3,
         duration:1,
-        x:-350,
-        y:-100,
+        x:-470,
+        y:-150,
         scrub:2
     })
     
@@ -224,10 +224,10 @@ function initAnimationsSmall() {
 
 let mm = gsap.matchMedia();
 
-mm.add("(min-width: 1024px)", () => {
+mm.add("(min-width: 1025px)", () => {
     initAnimationsLarge();
 });
 
-mm.add("(min-width: 768px) and (max-width: 1023px)", () => {
+mm.add("(min-width: 768px) and (max-width: 1024px)", () => {
     initAnimationsSmall();
 });
