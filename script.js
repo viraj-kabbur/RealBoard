@@ -1,3 +1,5 @@
+function initAnimationsLarge() {
+
 var tl = gsap.timeline()
 
 tl.from(".container .box1", {
@@ -101,81 +103,80 @@ gsap.from(".button-container", {
     opacity:0,
     duration:1,
     delay:13
-})
+});
+}
 
 
-let mm = gsap.matchMedia();
+function initAnimationsSmall() {
 
-mm.add("(max-width: 768px)", () => {
+    var tl_1 = gsap.timeline()
 
-    var tl = gsap.timeline()
-
-    tl.from(".container .box1", {
+    tl_1.from(".container .box1", {
         opacity:0,
         delay:1,
         duration:0.60
     })
     
-    tl.from(".container .box2", {
+    tl_1.from(".container .box2", {
         opacity:0,
         duration:0.60
     })
-    tl.from(".container .box3", {
+    tl_1.from(".container .box3", {
         opacity:0,
         duration:0.60
     
     })
-    tl.from(".container .box4", {
+    tl_1.from(".container .box4", {
         opacity:0,
         duration:0.60
     })
-    tl.from(".container .box5", {
+    tl_1.from(".container .box5", {
         opacity:0,
         duration:0.60
     })
-    tl.from(".container .box6", {
+    tl_1.from(".container .box6", {
         opacity:0,
         duration:0.60
     })
-    tl.from(".container .box7", {
+    tl_1.from(".container .box7", {
         opacity:0,
         duration:0.60
     })
-    tl.from(".container .box8", {
-        opacity:0,
-        duration:0.60
-    })
-    
-    tl.from(".container .box9", {
+    tl_1.from(".container .box8", {
         opacity:0,
         duration:0.60
     })
     
-    tl.from(".container .box10", {
+    tl_1.from(".container .box9", {
         opacity:0,
         duration:0.60
     })
     
-    tl.from(".container .box11", {
+    tl_1.from(".container .box10", {
         opacity:0,
         duration:0.60
     })
     
-    tl.from(".container .box12", {
-        opacity:0,
-        duration:0.60
-    })
-    tl.from(".container .box13", {
+    tl_1.from(".container .box11", {
         opacity:0,
         duration:0.60
     })
     
-    tl.from(".container .box14", {
+    tl_1.from(".container .box12", {
+        opacity:0,
+        duration:0.60
+    })
+    tl_1.from(".container .box13", {
         opacity:0,
         duration:0.60
     })
     
-    tl.to(".container", {
+    tl_1.from(".container .box14", {
+        opacity:0,
+        duration:0.60
+    })
+    
+    tl_1.to(".container", {
         scale:0.3,
         duration:1,
         x:-350,
@@ -183,12 +184,12 @@ mm.add("(max-width: 768px)", () => {
         scrub:2
     })
     
-    tl.from(".banner", {
+    tl_1.from(".banner", {
         opacity:0,
         duration:1,
     })
     
-    tl.from(".text1", {
+    tl_1.from(".text1", {
         opacity:0,
         duration:2,
         Y:-70,
@@ -217,6 +218,16 @@ mm.add("(max-width: 768px)", () => {
         opacity:0,
         duration:1,
         delay:13
-    })
+    });
   
-  });
+}
+
+let mm = gsap.matchMedia();
+
+mm.add("(min-width: 1024px)", () => {
+    initAnimationsLarge();
+});
+
+mm.add("(min-width: 768px) and (max-width: 1023px)", () => {
+    initAnimationsSmall();
+});
