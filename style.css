@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: 'MyFont2';
-    src: url('Fonts/TT\ Backwards\ Script\ Trial\ Bold.otf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('TT Backwards Script Trial Bold.otf') format('truetype'); /* Adjust the path and format as needed */
     font-weight: normal;
     font-style: normal;
 }
