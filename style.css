@@ -1,0 +1,603 @@
+@font-face {
+    font-family: 'MyFont1';
+    src: url('Fonts/TT\ Bluescreens\ Trial\ Bold.ttf') format('truetype'); /* Adjust the path and format as needed */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyFont2';
+    src: url('Fonts/TT\ Backwards\ Script\ Trial\ Bold.otf') format('truetype'); /* Adjust the path and format as needed */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyFont3';
+    src: url('Fonts/DynaPuff-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=DynaPuff:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #F5EDED;
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+    z-index: 1;
+    background-color: #6482AD;
+}
+
+.circle-container {
+    height:120px;
+    width:100vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom:-25%;
+}
+
+.circle {
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    background-color: white;
+    /* border: 2px solid lightgrey; */
+    overflow: hidden;
+}
+
+.img {
+    object-fit: contain;
+    width:100%;
+    height:auto;
+}
+
+.box1 {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    font-family: 'MyFont1';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin-left: 50px;
+    top:4%;
+}
+
+.box2 {
+    width: 100px;
+    height: 50px;
+    font-family: 'MyFont2';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    position: relative;
+    left: 25%;
+    bottom:10%;
+}
+
+.box3 {
+    width: 500px;
+    height: 50px;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    position: relative;
+    left:55%;
+    bottom:30%;
+}
+
+.box4 {
+    width: 100px;
+    height: 50px;
+    font-family: "MyFont3";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    left:5%;
+    bottom:-5%;
+}
+
+.box5 {
+    width: 100px;
+    height: 50px;
+    font-family: 'MyFont2';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    position: relative;
+    left:25%;
+    bottom:0%;
+}
+
+.box6 {
+    width: 100px;
+    height: 50px;
+    font-family: 'MyFont3';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    position: relative;
+    left:64%;
+    bottom:30%;
+}
+
+.box7 {
+    width: 100px;
+    height: 50px;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    position: relative;
+    left:75%;
+    bottom:20%;
+}
+
+.box8 {
+    width: 400px;
+    height: 50px;
+    font-family: "MyFont1";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    position: relative;
+    left:5%;
+    bottom: 86%;
+}
+
+.box9 {
+    width: 100px;
+    height: 50px;
+    font-family: 'MyFont3';
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    bottom:110%;
+    left:50%;
+}
+
+.box10 {
+    width: 100px;
+    height: 50px;
+    font-family: 'MyFont2';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: relative;
+    bottom:100%;
+    left:85%;
+}
+
+.box11 {
+    width: 200px;
+    height: 50px;
+    font-family: 'MyFont3';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: relative;
+    bottom:120%;
+    left:35%;
+}
+
+.box12 {
+    width: 100px;
+    height: 50px;
+    font-family: 'MyFont2';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: relative;
+    bottom:180%;
+    left:40%;
+    position: relative;
+}
+
+.box13 {
+    width: 100px;
+    height: 50px;
+    font-family: 'MyFont1';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    position: relative;
+    bottom:170%;
+    left:71%;
+}
+
+.box14 {
+    width: 100px;
+    height: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    position: relative;
+    bottom:150%;
+    left:57%;
+}
+
+.banner {
+    position: absolute;
+    height: 260px;
+    width: 100vw;
+    background-color: #7FA1C3;
+    top:0%;
+}
+
+
+.text1 {
+    margin-top: 10%;
+    text-align: left;
+    height:105px;
+    width: 45vw;
+    font-family: "Inter", sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    right:-1%;
+    top: -11.5%;
+}
+
+.text2 {
+    width: 50vw;
+    position: relative;
+    top:2%;
+    left:3%;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #543310;
+}
+
+.text3 {
+    position: relative;
+    margin-top: 9px;
+    left: 3%;
+    width: 80vw;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #543310;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.button {
+    position: relative;
+    background-color: #3572EF;
+    border-radius: 6px;
+    font-family: "Inter", sans-serif;
+    border: none;
+    font-size: 19px;
+    color: #FFFFFF;
+    padding: 20px;
+    height: 50px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s; 
+  }
+
+.button:hover {
+    transform: scale(1); 
+    cursor: pointer;
+}
+
+.button::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.5);
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.button:active::after {
+    transform: scale(3);
+    opacity: 1;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+@media (max-width:768px) {
+    body {
+        background-color: #F5EDED;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .text1 {
+        width: 40%;
+        text-align: left;
+        font-size: 30px;
+        right: 3%;
+        top: -8%;
+    }
+
+    .banner {
+        position: absolute;
+        height: 190px;
+        width: 100vw;
+        background-color: #7FA1C3;
+        top: 0%;
+    }
+    .container {
+        width: 146vw;
+        height: 72vh;
+        position: relative;
+        z-index: 1;
+        background-color: #6482AD;
+        /* margin-top: 20px; */
+        /* margin-left: 15px; */
+    }
+    .circle-container {
+        height: 177px;
+        width: 145vw;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: -28%;
+    }
+    .text2 {
+        width: 65vw;
+        position: absolute;
+        top: 43%;
+        left: 5%;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        /* padding-left: 25px; */
+        font-size: 24px;
+        margin-top: 1px;
+        color: #543310;
+    }
+
+
+    .text3 {
+        position: absolute;
+        margin-top: 9px;
+        left: 5%;
+        top: 55%;
+        width: 65vw;
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #543310;
+    }
+
+    .box12 {
+        width: 100px;
+        height: 50px;
+        font-family: 'MyFont2';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        position: relative;
+        bottom: 199%;
+        left: 40%;
+        position: relative;
+    }
+    .box8 {
+        width: 400px;
+        height: 50px;
+        font-family: "MyFont1";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 85px;
+        position: relative;
+        left: 5%;
+        bottom: 68%;
+    }
+    .box4 {
+        width: 100px;
+        height: 50px;
+        font-family: "MyFont3";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 52px;
+        font-weight: 700;
+        position: relative;
+        left: 5%;
+        bottom: -24%;
+    }
+    .box5 {
+        width: 100px;
+        height: 50px;
+        font-family: 'MyFont2';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        position: relative;
+        left: 27%;
+        bottom: -18%;
+    }
+    .box11 {
+        width: 200px;
+        height: 50px;
+        font-family: 'MyFont3';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 34px;
+        position: relative;
+        bottom: 135%;
+        left: 33%;
+    }
+    .box12 {
+        width: 100px;
+        height: 50px;
+        font-family: 'MyFont2';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        position: relative;
+        bottom: 192%;
+        left: 41%;
+        position: relative;
+    }
+
+    .box14 {
+        width: 100px;
+        height: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 31px;
+        position: relative;
+        bottom: 153%;
+        left: 59%;
+    }
+    .box6 {
+        width: 100px;
+        height: 50px;
+        font-family: 'MyFont3';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 48px;
+        position: relative;
+        left: 64%;
+        bottom: 12%;
+    }
+    .box7 {
+        width: 100px;
+        height: 50px;
+        font-family: "Atkinson Hyperlegible", sans-serif;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        position: relative;
+        left: 79%;
+        bottom: 3%;
+    }
+    .box10 {
+        width: 100px;
+        height: 50px;
+        font-family: 'MyFont2';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        position: relative;
+        bottom: 134%;
+        left: 83%;
+    }
+
+    .box13 {
+        width: 100px;
+        height: 50px;
+        font-family: 'MyFont1';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 56px;
+        position: relative;
+        bottom: 182%;
+        left: 57%;
+    } 
+    .box9 {
+        width: 100px;
+        height: 228px;
+        font-family: 'MyFont3';
+        font-style: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 19px;
+        font-weight: 600;
+        position: relative;
+        bottom: 115%;
+        left: 46%;
+    }
+
+
+    .box3 {
+        width: 500px;
+        height: 50px;
+        font-family: "Atkinson Hyperlegible", sans-serif;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 70px;
+        position: relative;
+        left: 55%;
+        bottom: 23%;
+    }
+    .button {
+        position: relative;
+        margin-top: 11%;
+        background-color: #3572EF;
+        border-radius: 6px;
+        font-family: "Inter", sans-serif;
+        border: none;
+        font-size: 19px;
+        color: #FFFFFF;
+        padding: 20px;
+        height: 44px;
+        width: 115px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform .2s;
+    }
+}

@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=DynaPuff:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.text3 {
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.banner-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.banner1 {
+    position: absolute;
+    top:8%;
+    left:7%;
+    height: 340px;
+    width: 235px;
+    background-color: white;
+    border:1px solid lightgray;
+    box-shadow: 0px 0px 3px #888;
+    transition: transform .2s; 
+}
+
+.banner1:hover {
+    transform: scale(1.05); 
+}
+
+.banner1-text1 {
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+}
+
+.banner1-text2 {
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+}
+
+.banner1-image {
+    margin-top: 16px;
+    width: auto;
+    height: 233px;
+    object-fit: contain;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.banner1-image img {
+    height: 220px;
+}
+
+.banner2 {
+    position: absolute;
+    top:8%;
+    left: 0%;
+    right: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 340px;
+    width: 235px;   
+    background-color: white;
+    border:1px solid lightgray;
+    box-shadow: 0px 0px 3px #888;
+    transition: transform .2s; 
+}
+
+.banner2:hover {
+    transform: scale(1.05); 
+}
+
+.banner2-text1 {
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+}
+
+.banner2-text2 {
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    padding: 0 25px 0 25px;
+}
+
+.banner2-image {
+    margin-top: 16px;
+    width: auto;
+    height: 233px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner2-image img {
+    height: 210px;
+}
+
+.banner3 {
+    position: absolute;
+    top:8%;
+    bottom:20%;
+    right:7%;
+    height: 340px;
+    width: 235px;   
+    background-color: white;
+    border:1px solid lightgray;
+    box-shadow: 0px 0px 3px #888;
+    transition: transform .2s; 
+}
+
+.banner3:hover {
+    transform: scale(1.05); 
+}
+
+.banner3-text1 {
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+}
+
+.banner3-text2 {
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    padding:0 25px 0 25px;
+}
+
+.banner3-image {
+    margin-top: 16px;
+    width: auto;
+    height: 233px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner3-image img {
+    height: 210px;
+}
+
+@media (max-width:768px) {
+    .text1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+    }
+    .text2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 13px;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .text3 {
+        width: 100vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12px;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .banner1 {
+        position: absolute;
+        top: 8%;
+        left: 7%;
+        height: 311px;
+        width: 195px;
+        background-color: white;
+        border: 1px solid lightgray;
+        box-shadow: 0px 0px 3px #888;
+        transition: transform .2s;
+    }
+    .banner1-text1 {
+        margin-top: 10px;
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+    }
+    .banner1-text2 {
+        margin-top: 20px;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        padding: 0px 25px 0px 25px;
+    }
+    .banner1-image img {
+        height: 187px;
+    } 
+    
+    .banner2 {
+        position: absolute;
+        top: 8%;
+        left: 0.1%;
+        height: 311px;
+        width: 195px;
+        background-color: white;
+        border: 1px solid lightgray;
+        box-shadow: 0px 0px 3px #888;
+        transition: transform .2s;
+    }
+    .banner2-text1 {
+        margin-top: 10px;
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+    }
+    .banner2-text2 {
+        margin-top: 20px;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        padding: 0px 25px 0px 25px;
+    }
+    .banner2-image img {
+        height: 187px;
+    } 
+    .banner3 {
+        position: absolute;
+        top: 8%;
+        right: 7%;
+        height: 311px;
+        width: 195px;
+        background-color: white;
+        border: 1px solid lightgray;
+        box-shadow: 0px 0px 3px #888;
+        transition: transform .2s;
+        overflow: hidden;
+    }
+    .banner3-text1 {
+        margin-top: 10px;
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+    }
+    .banner3-text2 {
+        margin-top: 20px;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        padding: 0px 25px 0px 25px;
+    }
+    .banner3-image img {
+        height: 182px;
+    }
+     
+}
