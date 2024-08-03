@@ -6,14 +6,14 @@
 }
 @font-face {
     font-family: 'MyFont2';
-    src: url('TT\ Backwards\ Script\ Trial\ Bold.otf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('Fonts/TT\ Backwards\ Script\ Trial\ Bold.otf') format('truetype'); /* Adjust the path and format as needed */
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyFont3';
-    src: url('DynaPuff-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('Fonts/DynaPuff-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
     font-weight: normal;
     font-style: normal;
 }
