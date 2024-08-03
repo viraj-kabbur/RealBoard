@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: 'MyFont3';
-    src: url('Fonts/DynaPuff-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('DynaPuff-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
     font-weight: normal;
     font-style: normal;
 }
