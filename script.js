@@ -222,12 +222,12 @@ function initAnimationsLarge() {
       
     }
     
-    let mm = gsap.matchMedia();
+     let mm = gsap.matchMedia();
     
-    mm.add("(min-width: 1024px)", () => {
+    mm.add("(min-width: 1025px)", () => {
         initAnimationsLarge();
     });
     
-    mm.add("(min-width: 768px) and (max-width: 1023px)", () => {
+    mm.add("(max-width: 1024px)", () => {
         initAnimationsSmall();
     });
