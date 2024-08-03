@@ -569,7 +569,7 @@ body,html {
         position: relative;
         bottom: 151%;
         left: 46%;
-position: relative;
+	position: relative;
     }
 
     .box13 {
@@ -598,13 +598,13 @@ position: relative;
         bottom: 94%;
         left: 59%;
     }
-}
+
 .button-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 118px;
-
+    margin-top: 36px;
+}
     .button {
         position: relative;
         margin-top: 11%;
