@@ -177,7 +177,7 @@ function initAnimationsSmall() {
     })
         
     tl_1.to(".container", {
-        scale:0.4,
+        scale:0.3,
         duration:1,
         x:-250,
         y:-115,
