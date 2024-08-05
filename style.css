@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'MyFont1';
-    src: url('TT Bluescreens Trial Bold.ttf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('Fonts/TT\ Bluescreens\ Trial\ Bold.ttf') format('truetype'); /* Adjust the path and format as needed */
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'MyFont2';
-    src: url('TT Backwards Script Trial Bold.otf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('Fonts/TT\ Backwards\ Script\ Trial\ Bold.otf') format('truetype'); /* Adjust the path and format as needed */
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyFont3';
-    src: url('DynaPuff-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('Fonts/DynaPuff-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
     font-weight: normal;
     font-style: normal;
 }
@@ -25,16 +25,181 @@ a {
     text-decoration: none;
 }
 
-body,html {
-    background-color: #F5EDED;
-    overflow-x: hidden;
-    zoom: 100%;
-}
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.grid-container {
+    z-index: 1;
+    position: relative;
+  display: grid;
+  gap: 10px;
+  background-color:#6482AD;
+  padding: 10px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-item {
+
+  text-align: center;
+  font-size: 20px;
+  height: 90px;
+}
+
+.item1 { 
+    grid-column: span 1; grid-row: span 1; 
+    text-align: start;
+    font-size: 36px;    
+}
+.one {
+    position: relative;
+    font-family: 'MyFont1';
+}
+
+
+.item2 { 
+    text-align: center;
+    font-size: 36px;
+    grid-column: span 2; grid-row: span 1; }
+.two {
+    margin-top: 14% !important;
+    font-family: 'MyFont2';
+}
+
+
+.item3 { 
+    font-size: 45px;
+    grid-column: span 2; grid-row: span 1; }
+.three {
+    margin-top: 5% !important;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+
+
+.item4 { 
+    font-size: 25px;
+    grid-column: span 1; grid-row: span 1; }
+.four {
+    margin-top: 15% !important;
+    font-family: 'MyFont3';
+}
+
+.item5{ 
+    font-size:35px;
+    grid-column: span 1; grid-row: span 1; }
+.five{
+    margin-top: 26% !important;
+    font-family: 'MyFont3';
+}
+
+
+.item6 { 
+    font-size:35px;
+    grid-column: span 1; grid-row: span 1; }
+.six{
+    margin-top: 26% !important;
+    font-family: 'MyFont3';
+}
+
+
+.item7 { 
+    font-size: 32px;
+    grid-column: span 1; grid-row: span 1; }
+.seven {
+    margin-left: 45% !important;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+.item8 { 
+    font-size: 39px;
+    grid-column: span 1; grid-row: span 1; }
+.eigth {
+    font-family: 'MyFont1';
+}
+
+
+.item9 { 
+    font-size: 28px;
+    grid-column: span 1; grid-row: span 1; }
+.nine {
+    margin-top: 30% !important;
+    margin-left: 10% !important;
+    font-family: 'MyFont3';
+}
+
+.item10 { 
+    font-size: 45px;
+    grid-column: span 2; grid-row: span 1; }
+.ten {
+    margin-top: 4% !important;
+    margin-left: 10% !important ;
+    font-family: 'MyFont2';
+}
+
+
+.item11 { 
+    font-size: 22px;
+    grid-column: span 1; grid-row: span 1; }
+.eleven {
+    margin-top: 15% !important;
+    margin-left: 14% !important;
+    font-family: 'MyFont3';
+}
+
+.item12 {
+    font-size: 28px;
+    grid-column: span 1; grid-row: span 1; }
+.twelve {
+    margin-top: 18% !important;
+    font-family: 'MyFont2';
+}
+
+
+.item13 { 
+    font-size: 32px;
+    grid-column: span 1; grid-row: span 1; }
+.thirteen {
+    margin-right: 20% !important;
+    margin-top: 18% !important;
+    font-family: 'MyFont1';
+}
+
+
+.item14 {
+    font-size: 32px;
+    grid-column: span 1; grid-row: span 1; }
+.fourteen {
+    margin-right: 20% !important;
+    margin-top: 18% !important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.item15 {
+    font-size: 38px;
+    grid-column: span 1; grid-row: span 1; }
+.fifteen {
+    font-family: 'MyFont1';
+}
+
+.item16 { 
+    font-size: 32px;
+    grid-column: span 2; grid-row: span 1; }
+.sixteen {
+    margin-left: 25% !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -70,198 +235,21 @@ body,html {
     height:auto;
 }
 
-.box1 {
-    position: relative;
-    width: 100px;
-    height: 50px;
-    font-family: 'MyFont1';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 60px;
-    margin-left: 50px;
-    top:4%;
-}
 
-.box2 {
-    width: 100px;
-    height: 50px;
-    font-family: 'MyFont2';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    position: relative;
-    left: 25%;
-    bottom:10%;
-}
 
-.box3 {
-    width: 500px;
-    height: 50px;
-    font-family: "Atkinson Hyperlegible", sans-serif;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 70px;
-    position: relative;
-    left:55%;
-    bottom:30%;
-}
-
-.box4 {
-    width: 100px;
-    height: 50px;
-    font-family: "MyFont3";
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    font-weight: 700;
-    position: relative;
-    left:5%;
-    bottom:-5%;
-}
-
-.box5 {
-    width: 100px;
-    height: 50px;
-    font-family: 'MyFont2';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    position: relative;
-    left:25%;
-    bottom:0%;
-}
-
-.box6 {
-    width: 100px;
-    height: 50px;
-    font-family: 'MyFont3';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    position: relative;
-    left:64%;
-    bottom:30%;
-}
-
-.box7 {
-    width: 100px;
-    height: 50px;
-    font-family: "Atkinson Hyperlegible", sans-serif;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    position: relative;
-    left:75%;
-    bottom:20%;
-}
-
-.box8 {
-    width: 400px;
-    height: 50px;
-    font-family: "MyFont1";
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 70px;
-    position: relative;
-    left:5%;
-    bottom: 86%;
-}
-
-.box9 {
-    width: 100px;
-    height: 50px;
-    font-family: 'MyFont3';
-    font-style: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-    font-weight: 600;
-    position: relative;
-    bottom:110%;
-    left:50%;
-}
-
-.box10 {
-    width: 100px;
-    height: 50px;
-    font-family: 'MyFont2';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    position: relative;
-    bottom:100%;
-    left:85%;
-}
-
-.box11 {
-    width: 200px;
-    height: 50px;
-    font-family: 'MyFont3';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    position: relative;
-    bottom:120%;
-    left:35%;
-}
-
-.box12 {
-    width: 100px;
-    height: 50px;
-    font-family: 'MyFont2';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    position: relative;
-    bottom:180%;
-    left:40%;
-    position: relative;
-}
-
-.box13 {
-    width: 100px;
-    height: 50px;
-    font-family: 'MyFont1';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 27px;
-    position: relative;
-    bottom:170%;
-    left:71%;
-}
-
-.box14 {
-    width: 100px;
-    height: 50px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 27px;
-    position: relative;
-    bottom:150%;
-    left:57%;
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-item {
+    font-size: 15px;
+    padding: 10px;
+  }
 }
 
 .banner {
     position: absolute;
-    height: 260px;
+    height: 40%;
     width: 100vw;
     background-color: #7FA1C3;
     top:0%;
@@ -274,33 +262,33 @@ body,html {
     height:105px;
     width: 45vw;
     font-family: "Inter", sans-serif;
-    font-size: 46px;
+    font-size: 54px;
     font-weight: 700;
     color: white;
     position: absolute;
-    right:-1%;
+    right:4%;
     top: -11.5%;
 }
 
 .text2 {
     width: 50vw;
     position: relative;
-    top:2%;
+    bottom:8%;
     left:3%;
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 32px;
     color: #543310;
 }
 
 .text3 {
     position: relative;
-    margin-top: 9px;
+    bottom: 6%;
     left: 3%;
     width: 80vw;
     font-family: "Inter", sans-serif;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 24px;
     color: #543310;
 }
 
@@ -351,275 +339,402 @@ body,html {
     transition: transform 0.2s, opacity 0.2s;
 }
 
-@media (min-device-width:768px) and (max-device-width: 1024px) {
-    body {
-        background-color: #F5EDED;
-        overflow-x: hidden;
-        overflow-y: hidden;
+@media (min-device-width:768px) and (max-device-width: 1023px) {
+   
+    .item7 { 
+        font-size: 32px;
     }
+    .seven {
+        margin-left: 0% !important;
+        margin-top: 20% !important;
+    }
+    
+    .item8 { 
+        font-size: 39px;
+        grid-column: span 1; grid-row: span 1; }
+    .eight {
+        font-family: 'MyFont1';
+        margin-top: 25% !important;
+    }
+
     .text1 {
-        width: 40%;
-        text-align: left;
-        font-size: 43px;
-        right: 6%;
-        top: -7%;
+        font-size: 38px;
+        top: -1%;
     }
-
     .text2 {
-        width: 65vw;
-        position: absolute;
-        top: 43%;
-        left: 5%;
-        font-family: "Inter", sans-serif;
-        font-weight: 600;
-        font-size: 33px;
-        margin-top: 1px;
-        color: #543310;
+        font-size: 30px;
+        width: 100%;
+    }
+    .text3 {
+        font-size: 21px;
+    }
+    .button-container {
+        margin-top: 3%;
+    }
+}
+
+@media (min-device-width:1024px) and (max-device-width: 1200px) {
+   
+    .item7 { 
+        font-size: 32px;
+    }
+    .seven {
+        margin-left: 0% !important;
+        margin-top: 20% !important;
+    }
+    
+    .item8 { 
+        font-size: 39px;
+        grid-column: span 1; grid-row: span 1; }
+    .eight {
+        font-family: 'MyFont1';
+        margin-top: 25% !important;
     }
 
+    .text1 {
+        right: -8%;
+        font-size: 52px;
+        top: -14%;
+        width: 550px;
+    }
+    .text2 {
+        top:-14%;
+        font-size: 36px;
+        width: 100%;
+        left:5%;
+    }
     .text3 {
-        position: absolute;
-        margin-top: 9px;
-        left: 5%;
-        top: 55%;
-        width: 65vw;
-        font-family: "Inter", sans-serif;
-        font-weight: 500;
-        font-size: 24px;
-        color: #543310;
+        top:-12%;
+        font-size: 26px;
+        left:5%;
+    }
+    .button-container {
+        margin-top: -3%;
+        width: 1;
     }
 
     .banner {
-        position: absolute;
-        height: 272px;
-        width: 100vw;
-        background-color: #7FA1C3;
-        top: 0%;
+        width: 110%;
     }
-       .container {
-        width: 100vw;
-        height: 62vh;
-        position: relative;
-        z-index: 1;
-        background-color: #6482AD;
-        /* margin-top: 20px; */
-        /* margin-left: 15px; */
-    }
-	
-    .circle-container {
-        height: 258px;
-        width: 100vw;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        bottom: -28%;
-    }
-
-.box1 {
-        position: relative;
-        width: 100px;
-        height: 50px;
-        font-family: 'MyFont1';
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 65px;
-        margin-left: 67px;
-        top: 4%;
-    }
-
-.box2 {
-        width: 100px;
-        height: 50px;
-        font-family: 'MyFont2';
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 31px;
-        position: relative;
-        left: 29%;
-        bottom: -2%;
-    }
-    .box3 {
-        width: 500px;
-        height: 50px;
-        font-family: "Atkinson Hyperlegible", sans-serif;
-        font-weight: 700;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 52px;
-        position: relative;
-        left: 56%;
-        bottom: 13%;
-    }
-
-    .box4 {
-        width: 100px;
-        height: 50px;
-        font-family: "MyFont3";
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 62px;
-        font-weight: 700;
-        position: relative;
-        left: 11%;
-        bottom: -33%;
-    }
-
-    .box5 {
-        width: 100px;
-        height: 50px;
-        font-family: 'MyFont2';
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 37px;
-        position: relative;
-        left: 25%;
-        bottom: -44%;
-    }
-    .box6 {
-        width: 100px;
-        height: 50px;
-        font-family: 'MyFont3';
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 48px;
-        position: relative;
-        left: 64%;
-        bottom: -3%;
-    }
-
-    .box7 {
-        width: 100px;
-        height: 50px;
-        font-family: "Atkinson Hyperlegible", sans-serif;
-        font-weight: 400;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 36px;
-        position: relative;
-        left: 77%;
-        bottom: -26%;
-    }
-
-    .box8 {
-        width: 400px;
-        height: 50px;
-        font-family: "MyFont1";
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 89px;
-        position: relative;
-        left: 5%;
-        bottom: 43%;
 }
-    .box9 {
-        width: 100px;
-        height: 228px;
-        font-family: 'MyFont3';
-        font-style: normal;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 39px;
-        font-weight: 600;
-        position: relative;
-        bottom: 65%;
-        left: 52%;
-    }
-    .box10 {
-        width: 100px;
-        height: 50px;
-        font-family: 'MyFont2';
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 48px;
-        position: relative;
-        bottom: 59%;
-        left: 80%;
-    }
-    .box11 {
-        width: 200px;
-        height: 50px;
-        font-family: 'MyFont3';
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 40px;
-        position: relative;
-        bottom: 81%;
-        left: 36%;
-    }
-    .box12 {
-        width: 100px;
-        height: 50px;
-        font-family: 'MyFont2';
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 48px;
-        position: relative;
-        bottom: 151%;
-        left: 46%;
-	position: relative;
-    }
 
-    .box13 {
-        width: 100px;
-        height: 50px;
-        font-family: 'MyFont1';
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 66px;
-        position: relative;
-        bottom: 132%;
-        left: 80%;
-    }
 
-    .box14 {
-        width: 100px;
-        height: 50px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-weight: 500;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+@media (min-device-width:1201px) and (max-device-width: 1368px) {
+   
+    .item7 { 
         font-size: 32px;
-        position: relative;
-        bottom: 94%;
-        left: 59%;
+    }
+    .seven {
+        margin-left: 0% !important;
+        margin-top: 20% !important;
+    }
+    
+    .item8 { 
+        font-size: 39px;
+        grid-column: span 1; grid-row: span 1; }
+    .eight {
+        font-family: 'MyFont1';
+        margin-top: 25% !important;
     }
 
-.button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 110px;
+    .text1 {
+        right: -8%;
+        font-size: 52px;
+        top: -14%;
+        width: 550px;
+    }
+    .text2 {
+        top:-14%;
+        font-size: 36px;
+        width: 100%;
+        left:5%;
+    }
+    .text3 {
+        top:-12%;
+        font-size: 26px;
+        left:5%;
+    }
+    .button-container {
+        margin-top: -3%;
+        width: 1;
+    }
+
+    .banner {
+        width: 110%;
+    }
 }
-    .button {
+
+
+
+    @media (min-device-width:1025px) and (max-device-width: 1366px) {
+        body {
+            background-color: #F5EDED;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+        .text1 {
+            width: 40%;
+            text-align: left;
+            font-size: 43px;
+            right: 6%;
+            top: -8%;
+        }
+    
+        .text2 {
+            width: 65vw;
+            position: absolute;
+            top: 43%;
+            left: 5%;
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 33px;
+            margin-top: 1px;
+            color: #543310;
+        }
+    
+        .text3 {
+            position: absolute;
+            margin-top: 9px;
+            left: 5%;
+            top: 55%;
+            width: 65vw;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 24px;
+            color: #543310;
+        }
+    
+        .banner {
+            position: absolute;
+            height: 272px;
+            width: 100vw;
+            background-color: #7FA1C3;
+            top: 0%;
+        }
+           .container {
+            width: 100vw;
+            height: 62vh;
+            position: relative;
+            z-index: 1;
+            background-color: #6482AD;
+            /* margin-top: 20px; */
+            /* margin-left: 15px; */
+        }
+        
+        .circle-container {
+            height: 258px;
+            width: 100vw;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            bottom: -28%;
+        }
+    
+    .box1 {
+            position: relative;
+            width: 100px;
+            height: 50px;
+            font-family: 'MyFont1';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 65px;
+            margin-left: 67px;
+            top: 15%;
+        }
+    
+    .box2 {
+            width: 100px;
+            height: 50px;
+            font-family: 'MyFont2';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 31px;
+            position: relative;
+            left: 29%;
+            bottom: -2%;
+        }
+        .box3 {
+            width: 500px;
+            height: 50px;
+            font-family: "Atkinson Hyperlegible", sans-serif;
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 52px;
+            position: relative;
+            left: 56%;
+            bottom: 13%;
+        }
+    
+        .box4 {
+            width: 100px;
+            height: 50px;
+            font-family: "MyFont3";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 62px;
+            font-weight: 700;
+            position: relative;
+            left: 11%;
+            bottom: -33%;
+        }
+    
+        .box5 {
+            width: 100px;
+            height: 50px;
+            font-family: 'MyFont2';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 37px;
+            position: relative;
+            left: 25%;
+            bottom: -44%;
+        }
+        .box6 {
+            width: 100px;
+            height: 50px;
+            font-family: 'MyFont3';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            position: relative;
+            left: 64%;
+            bottom: -3%;
+        }
+    
+        .box7 {
+            width: 100px;
+            height: 50px;
+            font-family: "Atkinson Hyperlegible", sans-serif;
+            font-weight: 400;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 36px;
+            position: relative;
+            left: 77%;
+            bottom: -26%;
+        }
+    
+        .box8 {
+            width: 400px;
+            height: 50px;
+            font-family: "MyFont1";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 89px;
+            position: relative;
+            left: 5%;
+            bottom: 43%;
+    }
+        .box9 {
+            width: 100px;
+            height: 228px;
+            font-family: 'MyFont3';
+            font-style: normal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 39px;
+            font-weight: 600;
+            position: relative;
+            bottom: 65%;
+            left: 52%;
+        }
+        .box10 {
+            width: 100px;
+            height: 50px;
+            font-family: 'MyFont2';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            position: relative;
+            bottom: 59%;
+            left: 80%;
+        }
+        .box11 {
+            width: 200px;
+            height: 50px;
+            font-family: 'MyFont3';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            position: relative;
+            bottom: 81%;
+            left: 36%;
+        }
+        .box12 {
+            width: 100px;
+            height: 50px;
+            font-family: 'MyFont2';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            position: relative;
+            bottom: 151%;
+            left: 46%;
         position: relative;
-        margin-top: 11%;
-        background-color: #3572EF;
-        border-radius: 6px;
-        font-family: "Inter", sans-serif;
-        border: none;
-        font-size: 19px;
-        color: #FFFFFF;
-        padding: 20px;
-        height: 44px;
-        width: 115px;
+        }
+    
+        .box13 {
+            width: 100px;
+            height: 50px;
+            font-family: 'MyFont1';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 66px;
+            position: relative;
+            bottom: 132%;
+            left: 80%;
+        }
+    
+        .box14 {
+            width: 100px;
+            height: 50px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 500;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 32px;
+            position: relative;
+            bottom: 94%;
+            left: 59%;
+        }
+    
+    .button-container {
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: transform .2s;
+        margin-top: 110px;
     }
-    }
+        .button {
+            position: relative;
+            margin-top: 11%;
+            background-color: #3572EF;
+            border-radius: 6px;
+            font-family: "Inter", sans-serif;
+            border: none;
+            font-size: 19px;
+            color: #FFFFFF;
+            padding: 20px;
+            height: 44px;
+            width: 115px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: transform .2s;
+        }
+        }
