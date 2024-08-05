@@ -257,19 +257,19 @@ function initAnimationsMedium() {
         gsap.from(".text2", {
             opacity:0,
             duration:0.75,
-            // delay:13
+            delay:13
         })
         
         gsap.from(".text3", {
             opacity:0,
             duration:0.75,
-            // delay:13
+            delay:13
         })
         
         gsap.from(".button-container", {
             opacity:0,
             duration:1,
-            // delay:13
+            delay:13
         });
 }
 
@@ -396,26 +396,26 @@ tl.to(".grid-container ", {
     gsap.from(".text2", {
         opacity:0,
         duration:0.75,
-        // delay:13
+        delay:13
     })
     
     gsap.from(".text3", {
         opacity:0,
         duration:0.75,
-        // delay:13
+        delay:13
     })
     
     gsap.from(".button-container", {
         opacity:0,
         duration:1,
-        // delay:13
+        delay:13
     });
 }
 
 
 let mm = gsap.matchMedia();
 
-mm.add("(min-width: 1025px)", () => {
+mm.add("(min-width: 1201px) and (max-width: 1366px)", () => {
     initAnimationsLarge();
 });
 
@@ -426,7 +426,6 @@ mm.add("(min-width: 768px) and (max-width: 1023px)", () => {
 mm.add("(min-width: 1024px) and (max-width: 1200px)", () => {
     ipad();
 });
-
 
 mm.add("(max-width: 767px)", () => {
     initAnimationsSmall();
