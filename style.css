@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'MyFont1';
-    src: url('TT Bluescreens Trial Bold.ttf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('Fonts/TT\ Bluescreens\ Trial\ Bold.ttf') format('truetype'); /* Adjust the path and format as needed */
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'MyFont2';
-    src: url('TT Backwards Script Trial Bold.otf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('Fonts/TT\ Backwards\ Script\ Trial\ Bold.otf') format('truetype'); /* Adjust the path and format as needed */
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyFont3';
-    src: url('DynaPuff-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('Fonts/DynaPuff-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
     font-weight: normal;
     font-style: normal;
 }
@@ -338,6 +338,87 @@ p {
     transition: transform 0.2s, opacity 0.2s;
 }
 
+@media (max-width:1280px){
+    .text1 {
+        font-size: 49px;
+        top: -11%;
+        right: 3%;
+    }
+    .text2 {
+        font-size: 36px;
+        bottom: 14%;
+        left: 4%;
+    }
+    .text3 {
+        bottom: 12%;
+        left: 4%;  
+        font-size: 25px;
+    }
+    .button-container {
+        bottom: 6%;
+    }
+}
+
+
+@media (max-width:1200px){
+    .text1 {
+        font-size: 47px;
+        top: -12%;
+        right: 5%;
+    }
+    .text2 {
+        font-size: 36px;
+        bottom: 18%;
+        left: 4%;
+    }
+    .text3 {
+        bottom: 16%;
+        left: 4%;  
+        font-size: 25px;
+    }
+    .button-container {
+        bottom: 12%;
+    }
+}
+
+@media (max-width:1180px){
+    .text1 {
+        font-size: 47px;
+        top: -12%;
+        right: 5%;
+    }
+    .text2 {
+        font-size: 36px;
+        bottom: 19%;
+        left: 4%;
+    }
+    .text3 {
+        bottom: 17%;
+        left: 4%;  
+        font-size: 25px;
+    }
+    .button-container {
+        bottom: 14%;
+    }
+}
+
+@media (max-width:1104px){
+    .text1 {
+        font-size: 44px;
+        top: -10%;
+    }
+    .text2 {
+        bottom: 19%;
+        left: 4%;
+    }
+    .text3 {
+        bottom: 17%;
+        left: 4%;
+    }
+    .button-container {
+        bottom: 14%;
+    }
+}
 
 @media (max-width:1024px){
     .text1 {
@@ -357,7 +438,7 @@ p {
         }
 }
 
-@media (max-width:999px) {
+@media (max-width:998px) {
     .text2 {
         bottom: 19%;
         left: 4%;
