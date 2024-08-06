@@ -4,103 +4,103 @@ function function_1668px() {
 
     let tl = gsap.timeline()
     
-// tl.from(".grid-container .one", {
-//     opacity:0,
-//     duration:0.60
-// })
+tl.from(".grid-container .one", {
+    opacity:0,
+    duration:0.60
+})
 
-// tl.from(".grid-container .two", {
-//     opacity:0,
-//     duration:0.60
-// })
-
-
-// tl.from(".grid-container .three", {
-//     opacity:0,
-//     duration:0.60
-// })
-
-// tl.from(".grid-container .four", {
-//     opacity:0,
-
-//     duration:0.60
-// })
+tl.from(".grid-container .two", {
+    opacity:0,
+    duration:0.60
+})
 
 
-// tl.from(".grid-container .five", {
-//     opacity:0,
+tl.from(".grid-container .three", {
+    opacity:0,
+    duration:0.60
+})
 
-//     duration:0.60
-// })
+tl.from(".grid-container .four", {
+    opacity:0,
 
-
-// tl.from(".grid-container .six", {
-//     opacity:0,
-
-//     duration:0.60
-// })
+    duration:0.60
+})
 
 
-// tl.from(".grid-container .seven", {
-//     opacity:0,
+tl.from(".grid-container .five", {
+    opacity:0,
 
-//     duration:0.60
-// })
-
-// tl.from(".grid-container .eight", {
-//     opacity:0,
-
-//     duration:0.60
-// })
-
-// tl.from(".grid-container .nine", {
-//     opacity:0,
-
-//     duration:0.60
-// })
+    duration:0.60
+})
 
 
-// tl.from(".grid-container .ten", {
-//     opacity:0,
+tl.from(".grid-container .six", {
+    opacity:0,
 
-//     duration:0.60
-// })
+    duration:0.60
+})
 
-// tl.from(".grid-container .eleven", {
-//     opacity:0,
 
-//     duration:0.60
-// })
+tl.from(".grid-container .seven", {
+    opacity:0,
 
-// tl.from(".grid-container .twelve", {
-//     opacity:0,
+    duration:0.60
+})
 
-//     duration:0.60
-// })
+tl.from(".grid-container .eight", {
+    opacity:0,
 
-// tl.from(".grid-container .thirteen", {
-//     opacity:0,
+    duration:0.60
+})
 
-//     duration:0.60
-// })
+tl.from(".grid-container .nine", {
+    opacity:0,
 
-// tl.from(".grid-container .fourteen", {
-//     opacity:0,
+    duration:0.60
+})
 
-//     duration:0.60
-// })
 
-// tl.from(".grid-container .fifteen", {
-//     opacity:0,
+tl.from(".grid-container .ten", {
+    opacity:0,
 
-//     duration:0.60
-// })
+    duration:0.60
+})
 
-// tl.from(".grid-container .sixteen", {
-//     opacity:0,
+tl.from(".grid-container .eleven", {
+    opacity:0,
 
-//     duration:0.60
-// })
+    duration:0.60
+})
+
+tl.from(".grid-container .twelve", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .thirteen", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .fourteen", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .fifteen", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .sixteen", {
+    opacity:0,
+
+    duration:0.60
+})
 
 tl.to(".grid-container ", {
     scale:0.5,
@@ -123,19 +123,19 @@ tl.to(".grid-container ", {
     gsap.from(".text2", {
         opacity:0,
         duration:0.75,
-        // delay:13
+        delay:13
     })
     
     gsap.from(".text3", {
         opacity:0,
         duration:0.75,
-        // delay:13
+        delay:13
     })
     
     gsap.from(".button-container", {
         opacity:0,
         duration:1,
-        // delay:13
+        delay:13
     });
 }
 
