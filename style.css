@@ -562,9 +562,12 @@ p {
         bottom: 16%;
         left: 5%;
     }
-        .button-container {
+    .button-container {
            bottom: 14%;
-        }
+    }
+    .banner {
+        height: 30%;
+    }
 }
 
 @media (max-width:998px) {
@@ -580,6 +583,9 @@ p {
     }
     .button-container {
         bottom: 15%;
+    }
+    .banner {
+        height: 30%;
     }
 }
 
