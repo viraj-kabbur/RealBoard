@@ -33,6 +33,7 @@ a {
 html , body{
     height: 100%;
     width: 100%;
+    background-color: #c2e8ee;
 }
 
 p {
@@ -45,10 +46,18 @@ p {
     position: relative;
      display: grid;
     gap: 10px;
-    background-color:#6482AD;
+    background-color:#0facc1;
     padding: 10px;
     grid-template-columns: repeat(5, 1fr);
 }   
+
+.banner {
+    position: absolute;
+    height: 40%;
+    width: 100vw;
+    background-color: #0c8090;
+    top:0%;
+}
 
 .grid-item {
   text-align: center;
@@ -201,13 +210,13 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container {
+/* .container {
     width: 100vw;
     height: 50vh;
     position: relative;
     z-index: 1;
     background-color: #6482AD;
-}
+} */
 
 .circle-container {
     height:120px;
@@ -246,14 +255,6 @@ p {
   }
 }
 
-.banner {
-    position: absolute;
-    height: 40%;
-    width: 100vw;
-    background-color: #7FA1C3;
-    top:0%;
-}
-
 .text1 {
     margin-top: 10%;
     text-align: left;
@@ -276,7 +277,7 @@ p {
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 32px;
-    color: #543310;
+    color: #033f47;
 }
 
 .text3 {
@@ -287,7 +288,7 @@ p {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 24px;
-    color: #543310;
+    color: #033f47;
 }
 
 .button-container {
@@ -300,7 +301,7 @@ p {
 
 .button {
     position: relative;
-    background-color: #3572EF;
+    background-color: #01373e;
     border-radius: 6px;
     font-family: "Inter", sans-serif;
     border: none;
@@ -389,14 +390,9 @@ p {
         font-size: 40px;
     }
 
-
-
-
-
-
     .text1 {
         font-size: 56px;
-        top: -10%;
+        top: -12%;
         right: 0%;
     }
     .text2 {
@@ -566,7 +562,7 @@ p {
            bottom: 14%;
     }
     .banner {
-        height: 40%;
+        height: 30%;
     }
 }
 
@@ -585,7 +581,7 @@ p {
         bottom: 15%;
     }
     .banner {
-        height: 40%;
+        height: 30%;
     }
 }
 
@@ -625,4 +621,18 @@ p {
         margin-top: 3%;
     }
 }
+
+
+/* CSS HEX */
+/* --bright-turquoise: #0cd0ea;
+--powder-blue: #c2e8ee;
+--blue-chill: #0c8090;
+--bondi-blue: #0b9db3;
+--downy: #6ac5d1;
+--blue-chill: #0d94a4;
+--cerulean: #0facc1;
+--cyan-/ aqua: #04e4fc;
+--cerulean: #0cb4cc;
+--picton-blue: #32cce4;
+ */
 
