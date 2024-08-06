@@ -253,6 +253,7 @@ tl.to(".grid-container ", {
     delay:1,
     scale:0.48,
     duration:1,
+    borderRadius: "30px",
     x:-340,
     y:-75
 })
@@ -397,6 +398,7 @@ tl.to(".grid-container ", {
     delay:1,
     scale:0.45,
     duration:1,
+    borderRadius: "30px",
     x:-320,
     y:-75
 })
@@ -539,6 +541,7 @@ tl.to(".grid-container ", {
     delay:1,
     scale:0.45,
     duration:1,
+    borderRadius: "30px",
     x:-300,
     y:-70
 })
@@ -683,6 +686,7 @@ tl.to(".grid-container ", {
     delay:1,
     scale:0.4,
     duration:1,
+    borderRadius: "30px",
     x:-310,
     y:-100
 })
@@ -827,6 +831,7 @@ tl.to(".grid-container ", {
     delay:1,
     scale:0.4,
     duration:1,
+    borderRadius: "30px",
     x:-305,
     y:-100
 })
@@ -970,6 +975,7 @@ tl.to(".grid-container ", {
     delay:1,
     scale:0.4,
     duration:1,
+    borderRadius: "30px",
     x:-285,
     y:-100
 })
@@ -1112,6 +1118,7 @@ tl.to(".grid-container ", {
     delay:1,
     scale:0.4,
     duration:1,
+    borderRadius: "30px",
     x:-252,
     y:-100
 })
@@ -1251,6 +1258,7 @@ tl.to(".grid-container ", {
     delay:1,
     scale:0.4,
     duration:1,
+    borderRadius: "30px",
     x:-260,
     y:-100
 })
@@ -1392,6 +1400,7 @@ tl.to(".grid-container ", {
     delay:1,
     scale:0.4,
     duration:1,
+    borderRadius: "30px",
     x:-195,
     y:-100
 })
