@@ -105,10 +105,13 @@ tl.from(".grid-container .sixteen", {
 tl.to(".grid-container ", {
     delay:1,
     scale:0.5,
-    duration:1,
+    duration:0.1,
     x:-340,
-    y:-55
+    y:-70,
+    borderRadius: "30px",
+    duration: 1
 })
+
     
     tl.from(".banner", {
         opacity:0,
