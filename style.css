@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'MyFont1';
-    src: url('TT Bluescreens Trial Bold.ttf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('Fonts/TT\ Bluescreens\ Trial\ Bold.ttf') format('truetype'); /* Adjust the path and format as needed */
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'MyFont2';
-    src: url('TT Backwards Script Trial Bold.otf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('Fonts/TT\ Backwards\ Script\ Trial\ Bold.otf') format('truetype'); /* Adjust the path and format as needed */
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyFont3';
-    src: url('DynaPuff-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('Fonts/DynaPuff-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
     font-weight: normal;
     font-style: normal;
 }
@@ -339,6 +339,61 @@ p {
 }
 
 @media (max-width:1668px){
+
+    .item1 {
+        font-size: 48px;
+    }
+    .item2 {
+        font-size: 44px;
+    }
+    .item3 {
+        font-size: 52px;
+    }
+    .item4 {
+        font-size: 35px;
+    }
+    .item5 {
+        font-size: 44px;
+    }
+    .item6 {
+        font-size: 41px;
+    }
+    .item7 {
+        font-size: 46px;
+    }
+    .item8 {
+        font-size: 34px;
+    }
+    .item9 {
+        font-size: 36px;
+    }
+    .item10 {
+        font-size: 48px;
+    }
+    .item11 {
+        font-size: 28px;
+    }
+    .item12 {
+        font-size: 34px;
+    }
+    .item13 {
+        font-size: 40px;
+    }
+    .item14 {
+        font-size: 36px;
+    }
+    .item15 {
+        font-size: 46px;
+    }
+    .item16 {
+        font-size: 40px;
+    }
+
+
+
+
+
+
     .text1 {
         font-size: 56px;
         top: -10%;
@@ -361,7 +416,6 @@ p {
         height: 45%;
     }
 }
-
 
 @media (max-width:1440px){
     .text1 {
@@ -387,7 +441,6 @@ p {
     }
 }
 
-
 @media (max-width:1368px){
     .text1 {
         font-size: 51px;
@@ -412,7 +465,6 @@ p {
     }
 }
 
-
 @media (max-width:1280px){
     .text1 {
         font-size: 51px;
@@ -436,7 +488,6 @@ p {
         height: 50%;
     }
 }
-
 
 @media (max-width:1200px){
     .text1 {
@@ -532,7 +583,6 @@ p {
     }
 }
 
-
 @media (max-width:768px) {
     .item7 { 
         font-size: 32px;
@@ -570,133 +620,3 @@ p {
     }
 }
 
-
-/* @media (min-device-width:768px) and (max-device-width: 1023px) {
-   
-    .item7 { 
-        font-size: 32px;
-    }
-    .seven {
-        margin-left: 0% !important;
-        margin-top: 20% !important;
-    }
-    
-    .item8 { 
-        font-size: 39px;
-        grid-column: span 1; grid-row: span 1; }
-    .eight {
-        font-family: 'MyFont1';
-        margin-top: 25% !important;
-    }
-
-    .text1 {
-        font-size: 38px;
-        top: -1%;
-    }
-    .text2 {
-        font-size: 30px;
-        width: 100%;
-    }
-    .text3 {
-        font-size: 21px;
-    }
-    .button-container {
-        margin-top: 3%;
-    }
-}
-
-@media (min-device-width:1024px) and (max-device-width: 1200px) {
-   
-    .item7 { 
-        font-size: 32px;
-    }
-    .seven {
-        margin-left: 0% !important;
-        margin-top: 20% !important;
-    }
-    
-    .item8 { 
-        font-size: 39px;
-        grid-column: span 1; grid-row: span 1; }
-    .eight {
-        font-family: 'MyFont1';
-        margin-top: 25% !important;
-    }
-
-    .text1 {
-        right: -8%;
-        font-size: 52px;
-        top: -14%;
-        width: 550px;
-    }
-    .text2 {
-        top:-14%;
-        font-size: 36px;
-        width: 100%;
-        left:5%;
-    }
-    .text3 {
-        top:-12%;
-        font-size: 26px;
-        left:5%;
-    }
-    .button-container {
-        margin-top: -3%;
-        width: 1;
-    }
-
-    .banner {
-        width: 110%;
-    }
-}
-
-
-@media (min-device-width:1201px) and (max-device-width: 1368px) {
-   
-    .item7 { 
-        font-size: 32px;
-    }
-    .seven {
-        margin-left: 0% !important;
-        margin-top: 20% !important;
-    }
-    
-    .item8 { 
-        font-size: 39px;
-        grid-column: span 1; grid-row: span 1; }
-    .eight {
-        font-family: 'MyFont1';
-        margin-top: 25% !important;
-    }
-
-    .fifteen {
-        margin-left: 93% !important;
-    }
-
-    .text1 {
-        right: -6%;
-        font-size: 50px;
-        top: -14%;
-        width: 550px;
-    }
-
-    .text2 {
-        top:-14%;
-        font-size: 36px;
-        width: 100%;
-        left:5%;
-    }
-    .text3 {
-        top:-12%;
-        font-size: 26px;
-        left:5%;
-    }
-    .button-container {
-        margin-top: -1%;
-        width: 110%;
-    }
-
-    .banner {
-        width: 110%;
-    }
-} */
