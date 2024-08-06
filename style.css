@@ -338,24 +338,46 @@ p {
     transition: transform 0.2s, opacity 0.2s;
 }
 
-@media (max-width:1280px){
+@media (max-width:1368px){
     .text1 {
-        font-size: 49px;
-        top: -11%;
+        font-size: 51px;
+        top: -7%;
         right: 3%;
     }
     .text2 {
-        font-size: 36px;
-        bottom: 14%;
+        font-size: 40px;
+        bottom: 6%;
         left: 4%;
     }
     .text3 {
-        bottom: 12%;
-        left: 4%;  
-        font-size: 25px;
+        font-size: 30px;
+        bottom: 4%;
+        left: 4%;
     }
     .button-container {
+        bottom: -2%;
+    }
+}
+
+
+@media (max-width:1280px){
+    .text1 {
+        font-size: 51px;
+        top: -7%;
+        right: 3%;
+    }
+    .text2 {
+        font-size: 40px;
         bottom: 6%;
+        left: 4%;
+    }
+    .text3 {
+        font-size: 30px;
+        bottom: 4%;
+        left: 4%;
+    }
+    .button-container {
+        bottom: -2%;
     }
 }
 
