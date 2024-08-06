@@ -1,112 +1,112 @@
-function function_1280px() {
+function function_1368px() {
 
-    console.log("1280");
+    console.log("1368");
 
-    var tl = gsap.timeline()
+    let tl = gsap.timeline()
     
-// tl.from(".grid-container .one", {
-//     opacity:0,
-//     duration:0.60
-// })
+tl.from(".grid-container .one", {
+    opacity:0,
+    duration:0.60
+})
 
-// tl.from(".grid-container .two", {
-//     opacity:0,
-//     duration:0.60
-// })
-
-
-// tl.from(".grid-container .three", {
-//     opacity:0,
-//     duration:0.60
-// })
-
-// tl.from(".grid-container .four", {
-//     opacity:0,
-
-//     duration:0.60
-// })
+tl.from(".grid-container .two", {
+    opacity:0,
+    duration:0.60
+})
 
 
-// tl.from(".grid-container .five", {
-//     opacity:0,
+tl.from(".grid-container .three", {
+    opacity:0,
+    duration:0.60
+})
 
-//     duration:0.60
-// })
+tl.from(".grid-container .four", {
+    opacity:0,
 
-
-// tl.from(".grid-container .six", {
-//     opacity:0,
-
-//     duration:0.60
-// })
+    duration:0.60
+})
 
 
-// tl.from(".grid-container .seven", {
-//     opacity:0,
+tl.from(".grid-container .five", {
+    opacity:0,
 
-//     duration:0.60
-// })
-
-// tl.from(".grid-container .eight", {
-//     opacity:0,
-
-//     duration:0.60
-// })
-
-// tl.from(".grid-container .nine", {
-//     opacity:0,
-
-//     duration:0.60
-// })
+    duration:0.60
+})
 
 
-// tl.from(".grid-container .ten", {
-//     opacity:0,
+tl.from(".grid-container .six", {
+    opacity:0,
 
-//     duration:0.60
-// })
+    duration:0.60
+})
 
-// tl.from(".grid-container .eleven", {
-//     opacity:0,
 
-//     duration:0.60
-// })
+tl.from(".grid-container .seven", {
+    opacity:0,
 
-// tl.from(".grid-container .twelve", {
-//     opacity:0,
+    duration:0.60
+})
 
-//     duration:0.60
-// })
+tl.from(".grid-container .eight", {
+    opacity:0,
 
-// tl.from(".grid-container .thirteen", {
-//     opacity:0,
+    duration:0.60
+})
 
-//     duration:0.60
-// })
+tl.from(".grid-container .nine", {
+    opacity:0,
 
-// tl.from(".grid-container .fourteen", {
-//     opacity:0,
+    duration:0.60
+})
 
-//     duration:0.60
-// })
 
-// tl.from(".grid-container .fifteen", {
-//     opacity:0,
+tl.from(".grid-container .ten", {
+    opacity:0,
 
-//     duration:0.60
-// })
+    duration:0.60
+})
 
-// tl.from(".grid-container .sixteen", {
-//     opacity:0,
+tl.from(".grid-container .eleven", {
+    opacity:0,
 
-//     duration:0.60
-// })
+    duration:0.60
+})
+
+tl.from(".grid-container .twelve", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .thirteen", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .fourteen", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .fifteen", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .sixteen", {
+    opacity:0,
+
+    duration:0.60
+})
 
 tl.to(".grid-container ", {
     scale:0.45,
     duration:1,
     x:-300,
-    y:-90
+    y:-70
 })
     
     tl.from(".banner", {
@@ -123,19 +123,19 @@ tl.to(".grid-container ", {
     gsap.from(".text2", {
         opacity:0,
         duration:0.75,
-        // delay:13
+        delay:13
     })
     
     gsap.from(".text3", {
         opacity:0,
         duration:0.75,
-        // delay:13
+        delay:13
     })
     
     gsap.from(".button-container", {
         opacity:0,
         duration:1,
-        // delay:13
+        delay:13
     });
 }
 
@@ -144,11 +144,160 @@ tl.to(".grid-container ", {
 
 
 
+
+
+
+
+
+
+function function_1280px() {
+
+    console.log("1280");
+
+    let tl = gsap.timeline()
+    
+tl.from(".grid-container .one", {
+    opacity:0,
+    duration:0.60
+})
+
+tl.from(".grid-container .two", {
+    opacity:0,
+    duration:0.60
+})
+
+
+tl.from(".grid-container .three", {
+    opacity:0,
+    duration:0.60
+})
+
+tl.from(".grid-container .four", {
+    opacity:0,
+
+    duration:0.60
+})
+
+
+tl.from(".grid-container .five", {
+    opacity:0,
+
+    duration:0.60
+})
+
+
+tl.from(".grid-container .six", {
+    opacity:0,
+
+    duration:0.60
+})
+
+
+tl.from(".grid-container .seven", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .eight", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .nine", {
+    opacity:0,
+
+    duration:0.60
+})
+
+
+tl.from(".grid-container .ten", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .eleven", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .twelve", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .thirteen", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .fourteen", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .fifteen", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .sixteen", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.to(".grid-container ", {
+    scale:0.45,
+    duration:1,
+    x:-300,
+    y:-70
+})
+    
+    tl.from(".banner", {
+        opacity:0,
+        duration:1,
+    })
+    
+    tl.from(".text1", {
+        opacity:0,
+        duration:1,
+        scrub:5
+    })
+    
+    gsap.from(".text2", {
+        opacity:0,
+        duration:0.75,
+        delay:13
+    })
+    
+    gsap.from(".text3", {
+        opacity:0,
+        duration:0.75,
+        delay:13
+    })
+    
+    gsap.from(".button-container", {
+        opacity:0,
+        duration:1,
+        delay:13
+    });
+}
+
+
+
 function function_1199px() {
 
     console.log("1199");
 
-    var tl = gsap.timeline()
+    let tl = gsap.timeline()
     
 tl.from(".grid-container .one", {
     opacity:0,
@@ -291,7 +440,7 @@ function function_1180px() {
 
     console.log("1180");
 
-    var tl = gsap.timeline()
+    let tl = gsap.timeline()
     
 tl.from(".grid-container .one", {
     opacity:0,
@@ -433,7 +582,7 @@ function function_1104px() {
 
     console.log("1104");
 
-    var tl = gsap.timeline()
+    let tl = gsap.timeline()
     
 tl.from(".grid-container .one", {
     opacity:0,
@@ -574,7 +723,7 @@ function function_1024px() {
 
     console.log("1024");
 
-    var tl = gsap.timeline()
+    let tl = gsap.timeline()
     
 tl.from(".grid-container .one", {
     opacity:0,
@@ -712,7 +861,7 @@ tl.to(".grid-container ", {
 }
 
 function  function_998px() {
-    var tl = gsap.timeline()
+    let tl = gsap.timeline()
     console.log("998");
     tl.from(".grid-container .one", {
     opacity:0,
@@ -850,7 +999,7 @@ tl.to(".grid-container ", {
 }
 
 function  function_768px() {
-    var tl = gsap.timeline()
+    let tl = gsap.timeline()
     
     console.log("768");
 
@@ -992,6 +1141,10 @@ tl.to(".grid-container ", {
 
 let mm = gsap.matchMedia();
 
+mm.add("(min-width: 1281px) and (max-width: 1368px)", () => {
+    function_1280px();
+});
+
 mm.add("(min-width: 1202px) and (max-width: 1280px)", () => {
     function_1280px();
 });
@@ -1012,7 +1165,7 @@ mm.add("(min-width: 999px) and (max-width: 1024px)", () => {
     function_1024px();
 });
 
-mm.add("(min-width: 769px) and (max-width: 998px)", () => {
+mm.add("(min-width: 769px) and (max-width: 999px)", () => {
     function_998px();
 });
 
