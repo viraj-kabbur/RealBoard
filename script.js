@@ -1,3 +1,288 @@
+function function_1668px() {
+
+    console.log("1668");
+
+    let tl = gsap.timeline()
+    
+// tl.from(".grid-container .one", {
+//     opacity:0,
+//     duration:0.60
+// })
+
+// tl.from(".grid-container .two", {
+//     opacity:0,
+//     duration:0.60
+// })
+
+
+// tl.from(".grid-container .three", {
+//     opacity:0,
+//     duration:0.60
+// })
+
+// tl.from(".grid-container .four", {
+//     opacity:0,
+
+//     duration:0.60
+// })
+
+
+// tl.from(".grid-container .five", {
+//     opacity:0,
+
+//     duration:0.60
+// })
+
+
+// tl.from(".grid-container .six", {
+//     opacity:0,
+
+//     duration:0.60
+// })
+
+
+// tl.from(".grid-container .seven", {
+//     opacity:0,
+
+//     duration:0.60
+// })
+
+// tl.from(".grid-container .eight", {
+//     opacity:0,
+
+//     duration:0.60
+// })
+
+// tl.from(".grid-container .nine", {
+//     opacity:0,
+
+//     duration:0.60
+// })
+
+
+// tl.from(".grid-container .ten", {
+//     opacity:0,
+
+//     duration:0.60
+// })
+
+// tl.from(".grid-container .eleven", {
+//     opacity:0,
+
+//     duration:0.60
+// })
+
+// tl.from(".grid-container .twelve", {
+//     opacity:0,
+
+//     duration:0.60
+// })
+
+// tl.from(".grid-container .thirteen", {
+//     opacity:0,
+
+//     duration:0.60
+// })
+
+// tl.from(".grid-container .fourteen", {
+//     opacity:0,
+
+//     duration:0.60
+// })
+
+// tl.from(".grid-container .fifteen", {
+//     opacity:0,
+
+//     duration:0.60
+// })
+
+// tl.from(".grid-container .sixteen", {
+//     opacity:0,
+
+//     duration:0.60
+// })
+
+tl.to(".grid-container ", {
+    scale:0.5,
+    duration:1,
+    x:-360,
+    y:-45
+})
+    
+    tl.from(".banner", {
+        opacity:0,
+        duration:1,
+    })
+    
+    tl.from(".text1", {
+        opacity:0,
+        duration:1,
+        scrub:5
+    })
+    
+    gsap.from(".text2", {
+        opacity:0,
+        duration:0.75,
+        // delay:13
+    })
+    
+    gsap.from(".text3", {
+        opacity:0,
+        duration:0.75,
+        // delay:13
+    })
+    
+    gsap.from(".button-container", {
+        opacity:0,
+        duration:1,
+        // delay:13
+    });
+}
+
+
+
+function function_1440px() {
+
+    console.log("1440");
+
+    let tl = gsap.timeline()
+    
+tl.from(".grid-container .one", {
+    opacity:0,
+    duration:0.60
+})
+
+tl.from(".grid-container .two", {
+    opacity:0,
+    duration:0.60
+})
+
+
+tl.from(".grid-container .three", {
+    opacity:0,
+    duration:0.60
+})
+
+tl.from(".grid-container .four", {
+    opacity:0,
+
+    duration:0.60
+})
+
+
+tl.from(".grid-container .five", {
+    opacity:0,
+
+    duration:0.60
+})
+
+
+tl.from(".grid-container .six", {
+    opacity:0,
+
+    duration:0.60
+})
+
+
+tl.from(".grid-container .seven", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .eight", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .nine", {
+    opacity:0,
+
+    duration:0.60
+})
+
+
+tl.from(".grid-container .ten", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .eleven", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .twelve", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .thirteen", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .fourteen", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .fifteen", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.from(".grid-container .sixteen", {
+    opacity:0,
+
+    duration:0.60
+})
+
+tl.to(".grid-container ", {
+    scale:0.48,
+    duration:1,
+    x:-320,
+    y:-75
+})
+    
+    tl.from(".banner", {
+        opacity:0,
+        duration:1,
+    })
+    
+    tl.from(".text1", {
+        opacity:0,
+        duration:1,
+        scrub:5
+    })
+    
+    gsap.from(".text2", {
+        opacity:0,
+        duration:0.75,
+        delay:13
+    })
+    
+    gsap.from(".text3", {
+        opacity:0,
+        duration:0.75,
+        delay:13
+    })
+    
+    gsap.from(".button-container", {
+        opacity:0,
+        duration:1,
+        delay:13
+    });
+}
+
+
 function function_1368px() {
 
     console.log("1368");
@@ -105,8 +390,8 @@ tl.from(".grid-container .sixteen", {
 tl.to(".grid-container ", {
     scale:0.45,
     duration:1,
-    x:-300,
-    y:-70
+    x:-320,
+    y:-75
 })
     
     tl.from(".banner", {
@@ -138,17 +423,6 @@ tl.to(".grid-container ", {
         delay:13
     });
 }
-
-
-
-
-
-
-
-
-
-
-
 
 function function_1280px() {
 
@@ -1141,8 +1415,16 @@ tl.to(".grid-container ", {
 
 let mm = gsap.matchMedia();
 
+mm.add("(min-width: 1441px) and (max-width: 1668px)", () => {
+    function_1668px();
+});
+
+mm.add("(min-width: 1369px) and (max-width: 1440px)", () => {
+    function_1440px();
+});
+
 mm.add("(min-width: 1281px) and (max-width: 1368px)", () => {
-    function_1280px();
+    function_1368px();
 });
 
 mm.add("(min-width: 1202px) and (max-width: 1280px)", () => {
