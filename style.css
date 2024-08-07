@@ -543,6 +543,9 @@ p {
     .button-container {
         bottom: 14%;
     }
+    .banner {
+        height: 34%;
+    }
 }
 
 @media (max-width:1024px){
@@ -562,7 +565,7 @@ p {
            bottom: 14%;
     }
     .banner {
-    height: 30%;
+    height: 36%;
     }
 }
 
