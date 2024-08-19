@@ -26,9 +26,9 @@ html , body{
     font-size: 30px;
 }
 
-.text2 {
+.text2 {                                                
     display: flex;
-    justify-content: center;
+    justify-content: center;  
     align-items: center;
     margin-top: 24px;
     font-family: "Inter", sans-serif;
